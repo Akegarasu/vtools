@@ -16,7 +16,7 @@ android {
         omarea_Signing {
             keyAlias 'omarea.com'
             keyPassword 'asdf1234'
-            storeFile file('D:/omoarea.jks')
+            storeFile file('./omoarea.jks')
             storePassword 'asdf1234'
         }
     }
