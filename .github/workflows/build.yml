@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: scene-dev
-        path: ${{ github.workspace }}/app/build/outputs/apk/release/app-release.apk
+        path: ${{ github.workspace }}/app/build/outputs
 
     # - name: Deploy
     #   env:
